@@ -25,3 +25,23 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+TASK:
+
+Angular проект з інформацією по планетам і її жителям (дані з public api https://swapi.dev).
+
+Опис завдання:
+
+Сторінка на якій присутні компоненти:
+
+- випадаючий список усіх планет (https://swapi.dev/api/planets);
+
+- таблиця з інформацією про вибрану зі списку планету (колонки: назва, діаметер, клімат, кількість населення).
+
+При кліку на рядок таблиці (планету) відкривати модальне вікно з інформацією про всіх її жителів (https://swapi.dev/api/people/:id): 
+
+- список з даними (ім'я, зріст, рік народження) по кожному жителю (наприклад, 1. Luke Skywalker, 172, 19 BBY; 2. .... ).
+
+
+
+Буде плюсом використання Angular Material  (зокрема для модального вікна).

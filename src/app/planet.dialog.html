@@ -1,0 +1,16 @@
+<h3 matDialogTitle>Planet {{ data.name }}</h3>
+<mat-dialog-content>
+    <ng-container *ngFor="let resident of data.array; let i = index">
+        {{ 
+        (i+1) + '. ' }}
+        <strong>{{ resident.name }} , </strong>
+        {{ resident.height }},
+        {{ resident.birth_year}} <br />
+    </ng-container>
+    <div *ngIf="data.array && data.array.length == 0">
+        No residents.
+    </div>
+</mat-dialog-content>
+<mat-dialog-actions>
+    <button mat-button matDialogClose>Close Dialog</button>
+</mat-dialog-actions>

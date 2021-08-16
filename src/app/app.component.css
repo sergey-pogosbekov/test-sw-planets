@@ -1,0 +1,67 @@
+:host {
+
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: stretch;
+  padding: 2%;
+}
+
+/* #rocket-smoke {
+  position: absolute;
+  right: 10%; top: 2%;
+} */
+
+.header {
+  padding-bottom: 7vh;
+}
+
+.main-content {
+  max-width: 80vw;
+  text-align: center;
+  padding: 10px;
+  color: whitesmoke;
+  font-weight: 400;
+  background:  linear-gradient(to top, rgba(2, 20, 53, 0.678), 20%, rgba(142, 140, 238, 0.644));
+
+  border: 0.1px solid rgba(0, 0, 0, 0.555);
+  box-shadow: 5px 4px 3px rgba(116, 116, 194, 0.274);
+}
+.main-content mat-form-field {
+  background-color:  ghostwhite;
+  text-align: center;
+  font-weight: 500;
+  width: 40%;
+}
+
+.tableWrapper table {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  min-width: 60vw;
+}
+.tableWrapper table td {
+padding: 20px;
+}
+
+.testClass {
+  margin-top: 7%;
+  max-width: 300px;
+  background-color: rgba(125, 154, 207, 0.99);
+}
+.testClass * {
+  color: white;
+}
+
+.mat-select-content {
+  background-color: rgba(0, 0, 255, 0.274);
+}
+
+.main-content .label {
+  display: block;
+}
